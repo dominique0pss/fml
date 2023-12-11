@@ -1,0 +1,53 @@
+h2{
+    margin: 3em;
+    font-size: 3em;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+img{
+    height: 300px;
+    width: 900px;
+    
+}
+
+.card:hover{
+   border-radius: 100px;
+   border: 1px solid rgb(255, 255, 255);
+}
+
+.tds{
+    display: flex;
+    
+    
+    
+}
+.tds p{
+    font-size: 1.2em;
+}
+
+.dm{
+width: 150px;
+}
+ 
+.btn1{
+    display: flex;
+   justify-content: space-around;
+   text-align: center;
+   margin-bottom: 100em;
+}
+
+.btn:hover{
+    background: linear-gradient(to right, #060af0, #cac2c2);
+    color: rgb(250, 250, 250);
+    opacity: 0,7;
+    box-shadow: 4px 4px 4px #ffffff;
+}
+
+.btn{
+    display: inline-block;
+    border: solid 1px rgba(0, 0, 255, 0.445);
+    color: #000000;
+    padding: 0.7em 1.8em;
+    margin-top: 2em;
+    cursor:default;
+}
